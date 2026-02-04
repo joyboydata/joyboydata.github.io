@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems on Joyboydata</title><link>https://joyboydata.com/tags/systems/</link><description>Recent content in Systems on Joyboydata</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://joyboydata.com/tags/systems/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from the first Joyboydata build</title><link>https://joyboydata.com/writing/first-notes/</link><pubDate>Wed, 01 Oct 2025 10:00:00 +0000</pubDate><guid>https://joyboydata.com/writing/first-notes/</guid><description>&lt;p&gt;Joyboydata is a small lab for building and writing about modern data systems. The work is a mix of architecture experiments, careful tooling choices, and the occasional contrarian take when common patterns feel too heavy.&lt;/p&gt;
+&lt;p&gt;What you can expect here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Practical notes on data modeling, segmentation, and activation&lt;/li&gt;
+&lt;li&gt;Postmortems on decisions that worked (and the ones that did not)&lt;/li&gt;
+&lt;li&gt;Lightweight tooling patterns that respect constraints and focus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want updates, the RSS feed is the most reliable way to follow along.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,21 @@
+@layer reset, tokens, base, layout, components, sections, themes, overrides;
+
+/* Tokens */
+@import url("https://unpkg.com/open-props@1.7.17/open-props.min.css") layer(tokens);
+@import url("./styles/tokens.css") layer(tokens);
+
+/* Base */
+@import url("https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css") layer(base);
+@import url("./styles/base.css") layer(base);
+
+/* Layout */
+@import url("./styles/layout.css") layer(layout);
+
+/* Components */
+@import url("./styles/components.css") layer(components);
+
+/* Sections */
+@import url("./styles/sections/home.css") layer(sections);
+
+/* Themes */
+@import url("./styles/themes.css") layer(themes);

@@ -1,0 +1,42 @@
+/* Base */
+body.site-body {
+  margin: 0;
+  color: var(--ink);
+  background-color: var(--pico-background-color);
+  min-height: 100vh;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  letter-spacing: 0.008em;
+}
+
+a {
+  color: inherit;
+}
+
+main h1,
+main h2,
+main h3 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+main h1 {
+  font-size: clamp(2.4rem, 5.2vw, 4.2rem);
+  line-height: 1.02;
+}
+
+main p,
+main li {
+  color: var(--ink-soft);
+}
+
+main ul {
+  padding-left: 1.2rem;
+}
+
+.mono {
+  font-family: "IBM Plex Mono", "SFMono-Regular", ui-monospace, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+}

@@ -1,0 +1,69 @@
+/* Layout */
+.site-shell {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 28px 22px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 32px 6px 10px;
+}
+
+.site-header > .site-brand {
+  align-self: center;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 36px 0 60px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.page {
+  display: grid;
+  gap: 28px;
+}
+
+.section-head {
+  display: grid;
+  gap: 10px;
+}
+
+.section-block {
+  display: grid;
+  gap: 28px;
+}
+
+.section-grid {
+  display: grid;
+  gap: 18px;
+}

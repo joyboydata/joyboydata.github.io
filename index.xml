@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to Joyboy Data on joyboydata</title><link>https://joyboydata.com/</link><description>Recent content in Welcome to Joyboy Data on joyboydata</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://joyboydata.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Joyboydata tech update</title><link>https://joyboydata.com/tech/welcome-to-joyboy-data-blog/</link><pubDate>Wed, 01 Oct 2025 10:00:00 +0000</pubDate><guid>https://joyboydata.com/tech/welcome-to-joyboy-data-blog/</guid><description>&lt;p&gt;We&amp;rsquo;re excited to launch our tech updates where we&amp;rsquo;ll be sharing:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joyboydata</title><link>https://joyboydata.com/</link><description>Recent content on Joyboydata</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://joyboydata.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Notes from the first Joyboydata build</title><link>https://joyboydata.com/writing/first-notes/</link><pubDate>Wed, 01 Oct 2025 10:00:00 +0000</pubDate><guid>https://joyboydata.com/writing/first-notes/</guid><description>&lt;p&gt;Joyboydata is a small lab for building and writing about modern data systems. The work is a mix of architecture experiments, careful tooling choices, and the occasional contrarian take when common patterns feel too heavy.&lt;/p&gt;
+&lt;p&gt;What you can expect here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Data Analytics Insights&lt;/strong&gt;: Best practices and methodologies&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Technical Tutorials&lt;/strong&gt;: Hands-on guides for data professionals&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry Trends&lt;/strong&gt;: Latest developments in data science and analytics&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Case Studies&lt;/strong&gt;: Real-world applications of our solutions&lt;/li&gt;
+&lt;li&gt;Practical notes on data modeling, segmentation, and activation&lt;/li&gt;
+&lt;li&gt;Postmortems on decisions that worked (and the ones that did not)&lt;/li&gt;
+&lt;li&gt;Lightweight tooling patterns that respect constraints and focus&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Stay tuned for regular updates and insights from our team of data experts!&lt;/p&gt;</description></item><item><title>Slicer — Segment Engine</title><link>https://joyboydata.com/slicer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joyboydata.com/slicer/</guid><description/></item></channel></rss>
+&lt;p&gt;If you want updates, the RSS feed is the most reliable way to follow along.&lt;/p&gt;</description></item><item><title>Contact</title><link>https://joyboydata.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joyboydata.com/contact/</guid><description>&lt;p&gt;Email is the fastest way to start.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re reaching out about a project, include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your warehouse + BI stack&lt;/li&gt;
+&lt;li&gt;Channels you run (email / WA / push / ads)&lt;/li&gt;
+&lt;li&gt;Where segment or KPI definitions diverge today&lt;/li&gt;
+&lt;li&gt;Timeline + budget range (if you have one)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Positioning</title><link>https://joyboydata.com/positioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joyboydata.com/positioning/</guid><description>&lt;h1 id="joyboydata-positioning-report-indonesia-b2b"&gt;Joyboydata positioning report (Indonesia B2B)&lt;/h1&gt;
+&lt;h2 id="0-one-line-summary"&gt;0) One-line summary&lt;/h2&gt;
+&lt;p&gt;Joyboydata membantu tim Growth/CRM mendefinisikan segmentasi dan metrik sekali di warehouse, lalu &lt;em&gt;reuse&lt;/em&gt; untuk activation dan measurement di semua channel—tanpa duplikasi logic, tanpa CSV drift, dan tanpa “metrics stack” baru yang sulit dipelihara.&lt;/p&gt;
+&lt;h2 id="1-service-offers-12-person-delivery"&gt;1) Service offers (1–2 person delivery)&lt;/h2&gt;
+&lt;p&gt;Prinsip paket: (a) scope jelas dan kecil, (b) deliverable yang bisa dipakai tim internal, (c) ada “quick win” + fondasi jangka panjang, (d) cocok untuk buyer Growth/CRM/Marketing Ops.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,39 @@
+/* Themes */
+:root {
+  color-scheme: light;
+  --pico-color-scheme: light;
+  --pico-primary: #2a62d5;
+  --pico-background-color: #f4f7fb;
+  --pico-color: #0b1220;
+  --pico-muted-color: #4a5870;
+  --pico-border-color: rgba(11, 18, 32, 0.12);
+  --ink: #0b1220;
+  --ink-soft: rgba(11, 18, 32, 0.72);
+  --ink-muted: rgba(11, 18, 32, 0.48);
+  --panel: #fbfdff;
+  --panel-elevated: #f2f6ff;
+  --accent: #2a62d5;
+  --accent-strong: #1d3f8f;
+  --grid-line: rgba(11, 18, 32, 0.08);
+  --glow: rgba(42, 98, 213, 0.22);
+  --radius-card: 14px;
+  --radius-pill: 999px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --pico-color-scheme: dark;
+    --pico-background-color: #0a1020;
+    --pico-color: #eef2fb;
+    --pico-muted-color: rgba(238, 242, 251, 0.72);
+    --pico-border-color: rgba(238, 242, 251, 0.12);
+    --ink: #eef2fb;
+    --ink-soft: rgba(238, 242, 251, 0.72);
+    --ink-muted: rgba(238, 242, 251, 0.52);
+    --panel: #121a2d;
+    --panel-elevated: #16203a;
+    --grid-line: rgba(238, 242, 251, 0.1);
+    --glow: rgba(68, 126, 234, 0.35);
+  }
+}
