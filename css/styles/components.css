@@ -94,8 +94,9 @@
 
 .cta-primary {
   background: var(--accent);
-  color: var(--gray-0);
+  color: #ffffff;
   box-shadow: var(--shadow-3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cta-secondary {
@@ -163,8 +164,16 @@
   color: var(--accent);
 }
 
-.text-link:hover,
-.cta-primary:hover,
+.text-link:hover {
+  color: var(--accent-strong);
+}
+
+.cta-primary:hover {
+  background: var(--accent-strong);
+  box-shadow: 0 8px 20px hsl(var(--accent-hsl) / 0.35);
+  transform: translateY(-2px) scale(1.02);
+}
+
 .cta-secondary:hover {
   color: var(--accent-strong);
   transform: translateY(-1px);

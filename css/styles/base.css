@@ -1,22 +1,59 @@
-/* Base */
-body.site-body {
+/* Base Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Site Body */
+body.site-body {
   color: var(--ink);
-  background-color: var(--pico-background-color);
+  background-color: var(--bg, #000000);
   min-height: 100vh;
   font-family: "IBM Plex Sans", system-ui, sans-serif;
   letter-spacing: 0.008em;
+  margin: 0;
 }
 
 a {
   color: inherit;
 }
 
-main h1,
 main h2,
 main h3 {
-  font-family: "Playfair Display", "Times New Roman", serif;
+  font-family: "Open Sans", system-ui, sans-serif;
+  font-weight: 400;
   letter-spacing: -0.01em;
+}
+
+main h2 {
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  line-height: 1.1;
+}
+
+main h3 {
+  font-size: 1.4rem;
+  line-height: 1.2;
 }
 
 main h1 {
@@ -27,6 +64,18 @@ main h1 {
 main p,
 main li {
   color: var(--ink-soft);
+}
+
+main p .highlight-blue,
+main li .highlight-blue {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+main p .highlight-purple,
+main li .highlight-purple {
+  color: #8b5cf6;
+  font-weight: 600;
 }
 
 main ul {
