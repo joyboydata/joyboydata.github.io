@@ -104,6 +104,10 @@
   .hero-actions .cta-primary,
   .hero-actions .cta-secondary {
     width: 100%;
+    flex: 1 1 auto;
+    flex-basis: auto;
+    height: auto;
+    min-height: var(--size-6);
   }
 }
 
