@@ -1,4 +1,36 @@
 /* Components */
+.site-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    grid-template-columns: auto 1fr;
+    gap: 48px;
+    padding: 32px 48px;
+  }
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  .site-nav {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-self: end;
+  }
+}
 .site-body::before {
   content: "";
   position: fixed;
@@ -31,10 +63,16 @@
 }
 
 .site-logo {
-  max-height: var(--size-8);
+  max-height: 32px;
   height: auto;
   width: auto;
   filter: saturate(var(--saturation-2)) contrast(1.05);
+}
+
+@media (min-width: 768px) {
+  .site-logo {
+    max-height: var(--size-8);
+  }
 }
 
 .site-divider-top {
@@ -130,10 +168,69 @@
   text-decoration: none;
   font-weight: 600;
   color: var(--ink-soft);
+  padding: 4px 0;
+  position: relative;
+  transition: color 0.2s ease;
+  font-size: 0.9rem;
 }
 
-.nav-link.is-active {
+@media (min-width: 768px) {
+  .nav-link {
+    padding: 8px 0;
+    font-size: 1rem;
+  }
+}
+
+/* Agentic Systems nav link styling */
+.nav-link:nth-child(2) {
+  color: #8b5cf6;
+}
+
+.nav-link:nth-child(2).is-active::after {
+  background: #8b5cf6;
+}
+
+/* Software Development nav link styling */
+.nav-link:nth-child(3) {
+  color: #3b82f6;
+}
+
+.nav-link:nth-child(3).is-active::after {
+  background: #3b82f6;
+}
+
+/* Home nav link styling */
+.nav-link:nth-child(1).is-active {
   color: var(--ink);
+}
+
+.nav-link:nth-child(1).is-active::after {
+  background: var(--accent);
+}
+
+.nav-link:nth-child(2):hover,
+.nav-link:nth-child(3):hover {
+  opacity: 0.8;
+}
+
+.nav-link:nth-child(1):hover {
+  color: var(--ink);
+}
+
+.nav-link.is-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+@media (max-width: 767px) {
+  .nav-link.is-active::after {
+    height: 1px;
+  }
 }
 
 .tag {
