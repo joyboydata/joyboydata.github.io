@@ -63,13 +63,19 @@
 }
 
 .site-logo {
-  max-height: 32px;
+  max-height: 40px;
   height: auto;
   width: auto;
   filter: saturate(var(--saturation-2)) contrast(1.05);
 }
 
 @media (min-width: 768px) {
+  .site-logo {
+    max-height: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
   .site-logo {
     max-height: var(--size-8);
   }
